@@ -29,8 +29,6 @@ set :rbenv_ruby, '2.3.1'
 #出力するログのレベル。
 set :log_level, :debug
 
-Rake::Task['metrics:collect'].clear_actions
-
 namespace :deploy do
   desc 'Restart application'
   task :restart do
