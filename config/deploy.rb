@@ -1,6 +1,6 @@
 # capistranoのバージョン固定
 lock '3.7.2'
-# lock '3.4.0'
+lock '3.4.0'
 
 # デプロイするアプリケーション名
 set :application, 'test'
