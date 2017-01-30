@@ -7,9 +7,9 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # gem install sqlite3 -v '1.3.13'
 
 ###mysql###
-# gem 'mysql2', '>= 0.3.18', '< 0.5'
+gem 'mysql2', '>= 0.3.18', '< 0.5'
 
-gem install sqlite3 -v '1.3.13' #ここ!!
+# gem install sqlite3 -v '1.3.13' #ここ!!
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
