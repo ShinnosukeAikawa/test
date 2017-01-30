@@ -4,7 +4,13 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Use sqlite3 as the database for Active Record
+# gem install sqlite3 -v '1.3.13'
+
+###mysql###
 gem 'mysql2', '>= 0.3.18', '< 0.5'
+
+# gem install sqlite3 -v '1.3.13' #ここ!!
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -35,19 +41,13 @@ group :development, :test do
   gem 'byebug', platform: :mri
 
   gem 'capistrano'
- gem 'capistrano-bundler'
- gem 'capistrano-rails'
- gem 'capistrano-rbenv'
-
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rbenv'
 end
-
-
-
 
 group :production, :staging do
   gem 'unicorn'
-
-# endbundle exec cap install
 end
 
 

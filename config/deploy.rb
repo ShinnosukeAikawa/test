@@ -11,8 +11,8 @@ set :repo_url, 'git@github.com:ShinnosukeAikawa/test.git'
 # deployするブランチ。デフォルトはmasterなのでなくても可。
 set :branch, 'master'
 
-# deploy先のディレクトリ。 
-set :deploy_to, '/var/www/test'
+# deploy先のディレクトリ。
+set :deploy_to, '/var/www/rails/test' ###ここ!!
 
 # シンボリックリンクをはるファイル。(※後述)
 set :linked_files, fetch(:linked_files, []).push('config/settings.yml')
