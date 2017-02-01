@@ -3,7 +3,7 @@ lock '3.7.2'
 # lock '3.4.0'
 
 # デプロイするアプリケーション名
-set :application, 'test'
+set :application, 'scaffold-test'
 
 # cloneするgitのレポジトリ
 set :repo_url, 'git@github.com:ShinnosukeAikawa/test.git'
