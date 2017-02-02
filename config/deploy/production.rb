@@ -1,5 +1,5 @@
 # EC2サーバーのIP、EC2サーバーにログインするユーザー名、サーバーのロールを記述
-server '13.112.140.43', user: 'ec2-user', roles: %w{app db web}
+server '13.112.140.43', user: 'shin', roles: %w{app db web} #ここ!
 
 #デプロイするサーバーにsshログインする鍵の情報を記述
 set :ssh_options, keys: '~/.ssh/test2.pem' #ここ!!
